@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Arlyna Catimbang's Form </title>
+       <style>
+            body {
+                background-color: #CCCCFF;
+            }
+
+            .form-group {
+                margin:10px 0;
+            }
+
+            input[type=submit] {
+                background-color:#9494f3;
+                border: none;
+                padding: 10px 20px;
+                margin: 4px 8px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .submitButton:hover {
+                    background-color: #54269f;
+                    color: white;
+            }
+
+       </style>
+    </head>
+
+    <body>
+        <h1>Contact Information</h1>
+        <form name="contactForm" method="get" action="Catimbang_Lab02_FormSuccess.html"> 
+           
+            <div class="form-group">
+                <label style="font-size:18px" for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label style="font-size:18px" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <hr>
+            <input type="submit" class="submitButton">
+            
+        </form>
+    </body>
+</html>
